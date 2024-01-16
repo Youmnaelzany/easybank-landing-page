@@ -12,11 +12,13 @@
 }
 
 body {
-  padding: 10.31rem 2.06rem;
+  /* padding: 2.06rem 10.31rem; */
   min-height: 100svh;
   font-family: "Public Sans", sans-serif;
   font-size: 1.125;
   line-height: 1.5;
+  width: 90rem;
+  max-width: 1440px;
 }
 
 img,
@@ -52,4 +54,9 @@ p {
     scroll-behavior: smooth;
     scroll-padding-top: 3rem;
   }
+}
+
+/* Header Styling */
+.header__btn {
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
 }
