@@ -57,6 +57,69 @@ p {
 }
 
 /* Header Styling */
+/* Buttons */
 .header__btn {
   background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
 }
+.header__btn:hover {
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  opacity: 0.4;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* After Borders For The Header Links */
+/* .nav-list li {
+  position: relative;
+  margin: 5px;
+  letter-spacing: -1px;
+}
+
+.nav-list li:after,
+.nav-list li:before,
+.nav-list a:before,
+.nav-list a:after {
+  position: absolute;
+  content: "";
+  border-radius: 4px;
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+}
+
+.nav-list li:after,
+.nav-list li:before {
+  bottom: -29px;
+  height: 4px;
+}
+
+.nav-list li:not(.selected):before {
+  left: 0;
+  right: -2px;
+}
+
+.nav-list li.selected:after {
+  left: 0;
+  right: 39px;
+}
+
+.nav-list li.selected:before {
+  right: -2px;
+  width: 13px;
+}
+
+.nav-list .selected a:before {
+  height: 22px;
+  width: 4px;
+  bottom: -22px;
+  right: 7px;
+}
+
+.nav-list .selected a:after {
+  height: 4px;
+  width: 40px;
+  bottom: -13px;
+  right: 5px;
+  transform: rotate(30deg);
+} */
